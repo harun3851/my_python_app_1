@@ -2,8 +2,19 @@ myList = ["apple","banana","cherry"]
 print(myList)
 print(len(myList))
 #access list
-thislist = ["apple", "banana", "cherry","orange","kiwi","melon","mango"]
-print(thislist[1])
-print(thislist[2:5])
-print(thislist[:4])
-print(thislist[2:])
+myList = ["apple", "banana", "cherry","orange","kiwi","melon","mango"]
+print(myList[1])
+print(myList[2:5])
+print(myList[:4])
+print(myList[2:])
+tropical = ["mango", "pineapple", "papaya"]
+myList.extend(tropical)
+print(myList)
+newList = ["apple", "banana", "cherry"]
+for x in newList:
+  print(x)
+  lastlist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(lastlist):
+  print(lastlist[i])
+  i = i + 1
